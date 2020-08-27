@@ -1,1 +1,7 @@
 Library/
+Temp/
+Obj/
+Builds/
+Logs/
+MemoryCaptures/
+.idea/
