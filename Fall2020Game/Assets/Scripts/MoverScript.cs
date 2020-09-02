@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-
 public class MoverScript : MonoBehaviour
 {
     public float x,y,z;
