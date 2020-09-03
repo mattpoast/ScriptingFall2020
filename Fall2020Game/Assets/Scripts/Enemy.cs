@@ -3,16 +3,10 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public GameObject sphere;
+    public GameObject player;
 
-    public void OnTriggerEnter(Collider other)
+    public void OnMouseDown()
     {
-        sphere.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        player.SetActive(false);
     }
 }
