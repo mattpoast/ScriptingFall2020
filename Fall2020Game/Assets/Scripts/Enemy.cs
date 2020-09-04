@@ -1,12 +1,15 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
     public GameObject player;
-
-    public void OnMouseDown()
+    public int health = 3;
+    private void OnTriggerEnter(Collider other)
     {
-        player.SetActive(false);
+        health -= 1;
+        if (health <=0)
+        {
+           player.SetActive(false); 
+        }
     }
 }

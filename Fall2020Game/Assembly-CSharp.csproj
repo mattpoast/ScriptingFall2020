@@ -58,8 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\MoverScript.cs" />
+    <Compile Include="Assets\Scripts\PowerUp.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Fall2020Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
