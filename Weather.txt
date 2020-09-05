@@ -19,3 +19,4 @@ sep 1 been inside all day so who knows the weather
 sep 2 base ball won and football lost
 sep 3 bulls beat the socks by a few goals
 sep 4 scores were up and down, as usual. 
+sep 5 scores were up by  10 percent
