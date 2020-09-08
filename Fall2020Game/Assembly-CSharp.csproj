@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bouncer.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Key.cs" />
     <Compile Include="Assets\Scripts\MoverScript.cs" />
     <Compile Include="Assets\Scripts\PowerUp.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
