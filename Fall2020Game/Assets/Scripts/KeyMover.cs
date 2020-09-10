@@ -11,8 +11,8 @@ public class KeyMover : MonoBehaviour
     public GameObject wall1, wall2;
     private void Start()
     {
-        bounceRight = new Vector2(-5,0);
-        bounceLeft = new Vector2(5, 0);
+        bounceRight = new Vector2(-15,0);
+        bounceLeft = new Vector2(15, 0);
     }
 
     private void OnCollisionEnter(Collision other)

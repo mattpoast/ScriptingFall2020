@@ -11,7 +11,7 @@ public class Key : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
+        Destroy(key);
         door.SetActive(false);
     }
 }
