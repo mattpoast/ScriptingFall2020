@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Ammo.cs" />
     <Compile Include="Assets\Scripts\AttackScript.cs" />
+    <Compile Include="Assets\Scripts\BootsScript.cs" />
     <Compile Include="Assets\Scripts\Bouncer.cs" />
     <Compile Include="Assets\Scripts\DeathScreen.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
