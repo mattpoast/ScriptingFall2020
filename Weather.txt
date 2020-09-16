@@ -27,3 +27,4 @@ sep 9 moms birth day scores
 sep 10 weather is weathering out side right now
 sep 12 bulls beat out the jazz in a 12 inning run around
 sep 13 i think football has started for the season
+sep 15 scores 
