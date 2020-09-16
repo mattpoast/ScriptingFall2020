@@ -4,28 +4,19 @@ using UnityEngine;
 
 public class KeyMover : MonoBehaviour
 {
-    public float speed = 20f;
-    public Rigidbody rb;
-    public Vector2 bounceRight;
-    public Vector2 bounceLeft;
-    public GameObject wall1, wall2;
-    private void Start()
-    {
-        bounceRight = new Vector2(-15,0);
-        bounceLeft = new Vector2(15, 0);
-    }
+    public float speed = 5f;
+    public Vector3 mover;
 
-    private void OnCollisionEnter(Collision other)
+    public void Update()
     {
-        if(wall1)
-        {
-            rb.AddForce(speed * bounceLeft, ForceMode.Impulse);
-        }
-
-        if (wall2)
-        {
-            rb.AddForce(speed * bounceRight, ForceMode.Impulse);
-        }
-        
+        mover.x = speed * Time.deltaTime;
+      transform.Translate(mover);
+      if (mover.x < 2)
+      {
+          print("working");
+          transform.Translate(mover);
+          mover.y = speed;
+      }
+   
     }
 }
