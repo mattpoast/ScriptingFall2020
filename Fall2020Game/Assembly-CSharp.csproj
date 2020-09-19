@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\MovingScript\KeyMover.cs" />
     <Compile Include="Assets\Scripts\MovingScript\MoverScript.cs" />
     <Compile Include="Assets\Scripts\PowerUp.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\Scripts\UnityEvents.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Fall2020Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
