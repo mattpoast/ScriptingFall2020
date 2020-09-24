@@ -1,22 +1,29 @@
 ﻿using UnityEngine;
 public class MoverScript : MonoBehaviour
 {
-    public float x,y,z;
-    public float speed = 5f;
-    public GameObject player;
-    void Start()
+    private Vector3 moveDirection;
+    private float yDirection;
+    public float moveSpeed = 3f;
+    public float gravity = -9.81f;
+    public CharacterController controller;
+    public float jumpForce = 10f;
+    private void Update()
     {
-        Debug.Log("Hello World!");
-    }
-    void Update()
-    {
-        x = Input.GetAxis("Horizontal")*speed*Time.deltaTime;
-        y = Input.GetAxis("Vertical")*speed*Time.deltaTime;
-        transform.Translate(x,y,z);
+        var moveSpeedInput = moveSpeed * Input.GetAxis("Horizontal");
+        moveDirection.Set(moveSpeedInput,yDirection,0);
+        yDirection += gravity * Time.deltaTime;
+
+        if (controller.isGrounded && moveDirection.y < 0)
+        {
+            yDirection = -1f;
+        }
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            yDirection = jumpForce;
+        }
+
+        controller.Move(moveDirection * Time.deltaTime);
     }
 
-    public void up()
-    {
-        player.SetActive(false);
-    }
 }
