@@ -871,10 +871,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0046a769763349688ce385fc6ea119a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 5
   gravity: -9.81
   controller: {fileID: 826140781}
-  jumpForce: 5
+  jumpForce: 7
 --- !u!135 &826140776
 SphereCollider:
   m_ObjectHideFlags: 0
