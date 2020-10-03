@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\MovingScript\WallImitter.cs" />
     <Compile Include="Assets\Scripts\Password.cs" />
     <Compile Include="Assets\Scripts\PowerUp.cs" />
+    <Compile Include="Assets\Scripts\Randomizer.cs" />
     <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\Scripts\UnityEvents.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">

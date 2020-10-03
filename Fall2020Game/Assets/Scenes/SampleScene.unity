@@ -1129,6 +1129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 1008111131}
   bulletForce: 5
+  player: {fileID: 826140774}
 --- !u!135 &1008111133
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1137,7 +1138,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008111131}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
