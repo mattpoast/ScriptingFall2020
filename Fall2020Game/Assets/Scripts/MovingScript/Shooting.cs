@@ -9,10 +9,13 @@ public class Shooting : MonoBehaviour
     public GameObject bullet;
     public int bulletForce = 5;
     private float timer;
+    private Vector3 bulletDirection;
     private void OnMouseDown()
     {
         Instantiate(bullet);
-        bullet.transform.Translate(bulletForce, 0, 0);
+              transform.Translate(bulletDirection);
+      bulletDirection.x  = bulletForce * Time.deltaTime;
+  bullet.SetActive(true);
     }
 
     private void Update()
@@ -20,7 +23,12 @@ public class Shooting : MonoBehaviour
         timer += 1f * Time.deltaTime;
         if (timer >= 5f)
         {
-            Destroy(bullet);
+            bullet.SetActive(false);
+        }
+
+        if (timer >= 6f)
+        {
+            timer = 0f;
         }
     }
 }
