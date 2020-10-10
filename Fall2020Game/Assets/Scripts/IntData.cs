@@ -1,8 +1,14 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [CreateAssetMenu]
 public class IntData : ScriptableObject
 {
     public int value;
-    public int health = 100;
+
+    public Void UpdateValue(int number)
+    {
+        value += number;
+        Debug.Log(value +" "+this.name);
+    }
 }

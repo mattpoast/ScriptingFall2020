@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Health
   m_EditorClassIdentifier: 
   value: 0
-  health: 100
+  health: 1
