@@ -1,14 +1,26 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.Experimental.UIElements;
+using UnityEngineInternal;
 
 public class OpenDoor : MonoBehaviour
 {
   public GameObject wall;
+  public GameObject door;
+  public bool truth;
 
-  public void OnTriggerEnter(Collider other)
+  private void Start()
   {
-       wall.transform.Translate(0, -5, 0);
+      truth = false;
+      door.SetActive(true);
+  }
+  public void OnMouseDown()
+  {
+      if (truth = true)
+      {
+          door.SetActive(false);
+      }
   }
 }
+
 
