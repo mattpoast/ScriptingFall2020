@@ -179,7 +179,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &161718667
 GameObject:
@@ -210,7 +210,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9099b317464b549cdbb7b332bc7c29ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverMouse: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
   defaultMouse: {fileID: 2800000, guid: 775c48ae1769d473089be955d4e2b0db, type: 3}
   hotSpot: {x: 0, y: 0}
   curMode: 0
@@ -222,11 +221,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161718667}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6148143, y: 1.2545121, z: 0.1221748}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 3.9, y: 1.2545121, z: 0.1221748}
+  m_LocalScale: {x: 4.9947, y: 4.9947, z: 4.9947}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &279052385
 GameObject:
@@ -318,7 +317,7 @@ Transform:
   m_LocalScale: {x: 2.5942667, y: 1, z: 1.1653}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &838604317
 GameObject:
@@ -410,7 +409,7 @@ Transform:
   m_LocalScale: {x: 2.5942667, y: 1, z: 1.1653}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: -90}
 --- !u!1 &969510282
 GameObject:
@@ -502,7 +501,7 @@ Transform:
   m_LocalScale: {x: 5.228368, y: 1, z: 2.3837}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 270, y: 0, z: 0}
 --- !u!1 &1207715612
 GameObject:
@@ -593,7 +592,7 @@ Transform:
   m_LocalScale: {x: 53.35271, y: 1.2, z: 9.3777}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1261102336
 GameObject:
@@ -646,9 +645,9 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -670,11 +669,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261102336}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.23, z: -5}
+  m_LocalScale: {x: 0.39477322, y: 0.39477322, z: 0.39477322}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1690741609}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1690741604
@@ -781,11 +780,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1690741604}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0055223, y: 3.3198824, z: 0.94755936}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2.5331, y: 2.5331, z: 2.5331}
-  m_Children: []
+  m_Children:
+  - {fileID: 1261102339}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &1690741610
 CharacterController:
@@ -816,9 +816,10 @@ GameObject:
   - component: {fileID: 1942949474}
   - component: {fileID: 1942949473}
   - component: {fileID: 1942949472}
+  - component: {fileID: 1942949475}
   m_Layer: 0
   m_Name: Door Opener
-  m_TagString: Untagged
+  m_TagString: objectCursor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -859,9 +860,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942949471}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.3, y: 0.32, z: -0.1}
+  m_LocalPosition: {x: -5.3, y: 0.32, z: 0}
   m_LocalScale: {x: 2.1049764, y: 7.0208, z: 10.730117}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1942949475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942949471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c0c6cbe53ef4253945d8d979837bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectMouse: {fileID: 2800000, guid: 4e2beaef073294a408fd706aa4474f39, type: 3}
+  defaultMouse: {fileID: 2800000, guid: 775c48ae1769d473089be955d4e2b0db, type: 3}
+  hotSpot: {x: 0, y: 0}
+  curMode: 0

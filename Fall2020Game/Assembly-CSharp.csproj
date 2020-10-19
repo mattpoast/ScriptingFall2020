@@ -59,7 +59,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Ammo.cs" />
     <Compile Include="Assets\Scripts\AttackScript.cs" />
-    <Compile Include="Assets\Scripts\CursorChanger.cs" />
+    <Compile Include="Assets\Scripts\CustomCursor.cs" />
     <Compile Include="Assets\Scripts\DeathScreen.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\Destroyer.cs" />
@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\MovingScript\MoverScript.cs" />
     <Compile Include="Assets\Scripts\MovingScript\Shooting.cs" />
     <Compile Include="Assets\Scripts\MovingScript\WallImitter.cs" />
+    <Compile Include="Assets\Scripts\ObjectMouse.cs" />
     <Compile Include="Assets\Scripts\OpenDoor.cs" />
     <Compile Include="Assets\Scripts\Password.cs" />
     <Compile Include="Assets\Scripts\PowerUp.cs" />
