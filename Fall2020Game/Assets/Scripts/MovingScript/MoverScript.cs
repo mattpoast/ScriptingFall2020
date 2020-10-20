@@ -10,9 +10,8 @@ public class MoverScript : MonoBehaviour
     private void Update()
     {
         var moveSpeedInput = moveSpeed * Input.GetAxis("Horizontal");
-       var moveSpeedInputZAxis = moveSpeed * Input.GetAxis("Vertical");
-        
-        moveDirection.Set(moveSpeedInput,yDirection,moveSpeedInputZAxis);
+
+        moveDirection.Set(moveSpeedInput, yDirection, 0);
         yDirection += gravity * Time.deltaTime;
 
         if (controller.isGrounded && moveDirection.y < 0)

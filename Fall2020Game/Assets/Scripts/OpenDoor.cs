@@ -1,22 +1,19 @@
-﻿using System;
-using UnityEngine;
-using UnityEngine.Experimental.UIElements;
-using UnityEngineInternal;
+﻿using UnityEngine;
 
 public class OpenDoor : MonoBehaviour
 {
   public GameObject wall;
   public GameObject door;
-  public bool truth;
+  public bool lockedDoor;
 
   private void Start()
   {
-      truth = false;
+      lockedDoor = false;
       door.SetActive(true);
   }
   public void OnMouseDown()
   {
-      if (truth = true)
+      if (lockedDoor = true)
       {
           door.SetActive(false);
       }
