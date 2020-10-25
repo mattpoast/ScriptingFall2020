@@ -2,9 +2,9 @@
 
 public class OpenDoor : MonoBehaviour
 {
-  public GameObject wall;
-  public GameObject door;
+    public GameObject door;
   public bool lockedDoor;
+  public AudioSource doorOpening;
 
   private void Start()
   {
@@ -16,6 +16,7 @@ public class OpenDoor : MonoBehaviour
       if (lockedDoor = true)
       {
           door.SetActive(false);
+          doorOpening.Play();
       }
   }
 }
