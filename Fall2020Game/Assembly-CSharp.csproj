@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Ammo.cs" />
     <Compile Include="Assets\Scripts\AttackScript.cs" />
     <Compile Include="Assets\Scripts\ClickAnimation.cs" />
+    <Compile Include="Assets\Scripts\Collecting.cs" />
     <Compile Include="Assets\Scripts\Collector.cs" />
     <Compile Include="Assets\Scripts\CustomCursor.cs" />
     <Compile Include="Assets\Scripts\DeathScreen.cs" />

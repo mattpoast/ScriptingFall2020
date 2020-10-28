@@ -4,10 +4,8 @@ public class Collector : MonoBehaviour
     public GameObject brain;
     public int counter;
     public AudioSource brainSquish;
-
     private void OnTriggerEnter(Collider other)
     {
-         
         counter += 1; 
         print(counter);
         brain.SetActive(false);
@@ -17,7 +15,6 @@ public class Collector : MonoBehaviour
              Debug.Log("Winner");
         }
     }
-
     private void OnMouseDown()
     {
         brainSquish.Play();
