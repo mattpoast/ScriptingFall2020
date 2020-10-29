@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\IntData.cs" />
     <Compile Include="Assets\Scripts\Key.cs" />
+    <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\Scripts\MovingScript\BootsScript.cs" />
     <Compile Include="Assets\Scripts\MovingScript\Bouncer.cs" />
     <Compile Include="Assets\Scripts\MovingScript\KeyMover.cs" />
