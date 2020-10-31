@@ -3,8 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
 {
-   private void OnTriggerEnter(Collider other)
+   private void OnMouseDown()
    {
-      SceneManager.LoadScene(0);
+      SceneManager.LoadScene(1);
+      print ("working");
    }
 }
