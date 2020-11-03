@@ -5,3 +5,5 @@ Builds/
 Logs/
 MemoryCaptures/
 .idea/
+.dll/
+.xml/
