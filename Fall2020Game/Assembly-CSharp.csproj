@@ -69,7 +69,6 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\IntData.cs" />
     <Compile Include="Assets\Scripts\Key.cs" />
-    <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\Scripts\MovingScript\BootsScript.cs" />
     <Compile Include="Assets\Scripts\MovingScript\Bouncer.cs" />
     <Compile Include="Assets\Scripts\MovingScript\KeyMover.cs" />
@@ -83,6 +82,7 @@
     <Compile Include="Assets\Scripts\PowerUp.cs" />
     <Compile Include="Assets\Scripts\Randomizer.cs" />
     <Compile Include="Assets\Scripts\Restart.cs" />
+    <Compile Include="Assets\Scripts\SceneLoaders\LoadScene.cs" />
     <Compile Include="Assets\Scripts\UnityEvents.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Fall2020Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
