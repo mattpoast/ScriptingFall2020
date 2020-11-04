@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/WindowScene.unity
-    guid: 47f706198822d47af8b3931c57ea7a14
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/NewScene.unity
     guid: 948e6c40c88bc419784de69530230baf
+  - enabled: 1
+    path: Assets/WindowRoom.unity
+    guid: 77281ecdfb9644300ae8e2ee9deccb64
   m_configObjects: {}
