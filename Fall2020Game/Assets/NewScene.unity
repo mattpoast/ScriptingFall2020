@@ -218,7 +218,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineOne: what's that?
-  lineTwo: idk
+  lineTwo: I wonder what that is?
+  ageBeforeBeauty: 0
 --- !u!65 &128365978
 BoxCollider:
   m_ObjectHideFlags: 0
