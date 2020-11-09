@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\OpenDoor.cs" />
     <Compile Include="Assets\Scripts\Password.cs" />
     <Compile Include="Assets\Scripts\PauseScript.cs" />
+    <Compile Include="Assets\Scripts\PlayAnimation.cs" />
     <Compile Include="Assets\Scripts\PowerUp.cs" />
     <Compile Include="Assets\Scripts\Randomizer.cs" />
     <Compile Include="Assets\Scripts\Restart.cs" />
