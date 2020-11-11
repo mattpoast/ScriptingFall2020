@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 public class ItemMenu : MonoBehaviour
 {
   public GameObject itemMenu;
@@ -10,7 +11,7 @@ public class ItemMenu : MonoBehaviour
     itemMenu.SetActive(true);
   }
   private void OnMouseEnter()
-  { 
+  {
     itemMenu.SetActive(true);
     transform.Translate(Time.deltaTime * speed * up);
     itemMenu.transform.Translate(Time.deltaTime * speed * up);

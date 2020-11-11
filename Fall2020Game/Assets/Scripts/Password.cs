@@ -5,17 +5,23 @@ public class Password : MonoBehaviour
 {
     public string password;
     public GameObject player;
+    public AudioSource puzzleSolved;
+    public AudioSource puzzleNotSolved;
     void Start()
     {
         password = String.Empty;
     }
-
     private void Update()
     {
         if (password.Equals("please"))
         {
-          print("working!!!");
-          player.transform.Translate(0, 5 * Time.deltaTime,0);
+          print("Access Granted");
+          puzzleSolved.Play();
+        }
+        else
+        {
+            print("Try Again");
+            puzzleNotSolved.Play();
         }
     }
 }
