@@ -671,8 +671,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: bda95651e848c46e3b42315c6a652a2c, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -767,8 +767,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 16cf876e79f4f433bb06c78b1bd0cbe1, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -866,9 +866,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   password: 
-  player: {fileID: 0}
-  puzzleSolved: {fileID: 0}
-  puzzleNotSolved: {fileID: 0}
+  puzzleSolved: {fileID: 774424140}
+  puzzleNotSolved: {fileID: 774424141}
+  timeBoy: 0
 --- !u!114 &774424143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1847,7 +1847,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342601659}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.51, y: -5.1, z: 0.96}
+  m_LocalPosition: {x: 0.51, y: -6.63, z: 0.96}
   m_LocalScale: {x: 28.830156, y: 3.112, z: 1}
   m_Children: []
   m_Father: {fileID: 1261102339}

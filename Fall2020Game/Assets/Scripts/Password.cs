@@ -1,27 +1,39 @@
 ﻿using System;
+using System.Timers;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Password : MonoBehaviour
 {
     public string password;
-    public GameObject player;
     public AudioSource puzzleSolved;
     public AudioSource puzzleNotSolved;
+    public float timeBoy;
     void Start()
     {
         password = String.Empty;
     }
-    private void Update()
+    private void OnMouseDown()
     {
-        if (password.Equals("please"))
+        if (password.Equals("Please"))
         {
-          print("Access Granted");
-          puzzleSolved.Play();
+            print("Access Granted");
+            puzzleSolved.Play();
+            
+            DelayedLoading();
         }
         else
         {
             print("Try Again");
             puzzleNotSolved.Play();
+        }
+        
+    }
+    public void DelayedLoading()
+    {
+        timeBoy += 1f * Time.deltaTime;
+        if (timeBoy >= 3f)
+        {
+            SceneManager.LoadScene(1);
         }
     }
 }
