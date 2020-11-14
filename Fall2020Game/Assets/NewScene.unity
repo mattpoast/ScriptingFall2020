@@ -868,7 +868,6 @@ MonoBehaviour:
   password: 
   puzzleSolved: {fileID: 774424140}
   puzzleNotSolved: {fileID: 774424141}
-  timeBoy: 0
 --- !u!114 &774424143
 MonoBehaviour:
   m_ObjectHideFlags: 0

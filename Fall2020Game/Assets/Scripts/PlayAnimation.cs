@@ -1,12 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Video;
 
 public class PlayAnimation : MonoBehaviour
 {
   public VideoPlayer coffinDrop;
 
-  public void OnMouseDown()
+  private void OnMouseEnter()
   {
-    coffinDrop.targetCameraAlpha = 0.5f;
+    coffinDrop.Play();
   }
 }

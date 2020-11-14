@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Timers;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Password : MonoBehaviour
@@ -7,7 +7,6 @@ public class Password : MonoBehaviour
     public string password;
     public AudioSource puzzleSolved;
     public AudioSource puzzleNotSolved;
-    public float timeBoy;
     void Start()
     {
         password = String.Empty;
@@ -18,22 +17,18 @@ public class Password : MonoBehaviour
         {
             print("Access Granted");
             puzzleSolved.Play();
-            
-            DelayedLoading();
+            StartCoroutine(DelayedTime());
         }
         else
         {
             print("Try Again");
             puzzleNotSolved.Play();
         }
-        
     }
-    public void DelayedLoading()
+    IEnumerator DelayedTime()
     {
-        timeBoy += 1f * Time.deltaTime;
-        if (timeBoy >= 3f)
-        {
-            SceneManager.LoadScene(1);
-        }
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(1);
+        print("working");
     }
 }
