@@ -89,6 +89,9 @@
     <Compile Include="Assets\Scripts\SceneLoaders\LoadScene.cs" />
     <Compile Include="Assets\Scripts\SceneLoaders\LoadSceneZero.cs" />
     <Compile Include="Assets\Scripts\SceneMover.cs" />
+    <Compile Include="Assets\Scripts\SledGame\ChairGas.cs" />
+    <Compile Include="Assets\Scripts\SledGame\Death.cs" />
+    <Compile Include="Assets\Scripts\SledGame\Obsticles.cs" />
     <Compile Include="Assets\Scripts\UnityEvents.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Fall2020Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
