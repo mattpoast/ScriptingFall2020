@@ -91,6 +91,7 @@
     <Compile Include="Assets\Scripts\SceneMover.cs" />
     <Compile Include="Assets\Scripts\SledGame\ChairGas.cs" />
     <Compile Include="Assets\Scripts\SledGame\Death.cs" />
+    <Compile Include="Assets\Scripts\SledGame\HillINstanciate.cs" />
     <Compile Include="Assets\Scripts\SledGame\Obsticles.cs" />
     <Compile Include="Assets\Scripts\UnityEvents.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
