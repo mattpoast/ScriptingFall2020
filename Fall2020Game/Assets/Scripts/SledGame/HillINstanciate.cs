@@ -7,7 +7,8 @@ public class HillINstanciate : MonoBehaviour
     private Vector3 nextHillSpawn;
     void Start()
     {
-        nextHillSpawn.z = 9;
+        nextHillSpawn.z = 42;
+        nextHillSpawn.y = -42;
         StartCoroutine(spawnHill());
     }
 
@@ -16,7 +17,7 @@ public class HillINstanciate : MonoBehaviour
         yield return new WaitForSeconds(1);
         Instantiate(hillObj, nextHillSpawn, hillObj.rotation);
         nextHillSpawn.z += 21;
-        nextHillSpawn.x += -21;
+        nextHillSpawn.y += -21;
         StartCoroutine(spawnHill());
     }
 }
