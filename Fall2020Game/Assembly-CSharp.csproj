@@ -90,6 +90,7 @@
     <Compile Include="Assets\Scripts\SceneLoaders\LoadSceneZero.cs" />
     <Compile Include="Assets\Scripts\SceneMover.cs" />
     <Compile Include="Assets\Scripts\SledGame\ChairGas.cs" />
+    <Compile Include="Assets\Scripts\SledGame\ChairMover.cs" />
     <Compile Include="Assets\Scripts\SledGame\Death.cs" />
     <Compile Include="Assets\Scripts\SledGame\HillINstanciate.cs" />
     <Compile Include="Assets\Scripts\SledGame\Obsticles.cs" />

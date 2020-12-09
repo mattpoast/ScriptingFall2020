@@ -613,13 +613,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1992090784}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0046a769763349688ce385fc6ea119a, type: 3}
+  m_Script: {fileID: 11500000, guid: 34060ac5850444c3cb1de7a0abf87b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
-  gravity: -9.81
-  controller: {fileID: 0}
-  jumpForce: 10
+  rB: {fileID: 1992090788}
 --- !u!4 &1992090786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 553d849a980914fe5b75978d80eb6193,
@@ -640,7 +637,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!65 &1992090789
 BoxCollider:
