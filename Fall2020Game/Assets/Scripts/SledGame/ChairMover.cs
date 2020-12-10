@@ -3,7 +3,10 @@ using UnityEngine;
 
 public class ChairMover : MonoBehaviour
 {
-    public Rigidbody rB;
-    
+
+    void mover()
+    {
+        
+    }
 
 }
