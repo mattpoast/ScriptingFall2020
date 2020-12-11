@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class ChairMover : MonoBehaviour
 {
+    public Rigidbody rb;
 
-    void mover()
+    private void Start()
     {
-        
+        rb.velocity = new Vector3(0,-3,3);
     }
-
 }
