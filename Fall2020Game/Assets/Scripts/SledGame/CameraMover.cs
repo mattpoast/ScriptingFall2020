@@ -1,10 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class CameraMover : MonoBehaviour
 {
-    void Start()
-    {
-       GetComponent<Rigidbody>().velocity = new Vector3(0,-3,3);
-    }
+    public CharacterController cam;
+    public Vector3 cameraGas;
 
+    public void Update()
+    {
+        cam.Move(cameraGas * Time.deltaTime);
+    }
 }

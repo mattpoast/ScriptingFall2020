@@ -4,20 +4,21 @@ using UnityEngine;
 public class ChairMover : MonoBehaviour
 {
     public Rigidbody rb;
-    public float chairGas;
-    private int speed = 10;
-    private Vector3 movment;
-    public GameObject player;
+    private float moveSpeed = 10f;
+    private Vector3 moveDirection;
+    public CharacterController controller;
+    public Vector3 gasBaby;
     private void Start()
     {
         rb.velocity = new Vector3(0, -9, 9);
     }
-    public void Move()
-        {
-        
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"),0,0);
-        
-        player.transform.position += movement * speed * Time.deltaTime;
-        
-        }
+    public void Update()
+    {
+        var moveSpeedInput = moveSpeed * Input.GetAxis("Horizontal");
+
+        moveDirection.Set(moveSpeedInput, 0, 0);
+         controller.Move(moveDirection * Time.deltaTime);
+         controller.Move(gasBaby * Time.deltaTime);
+    }
+    
 }
