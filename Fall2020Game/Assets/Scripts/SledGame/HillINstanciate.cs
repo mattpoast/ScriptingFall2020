@@ -11,7 +11,6 @@ public class HillINstanciate : MonoBehaviour
     void Start()
     {
         nextHillSpawn.z = 42;
-        nextHillSpawn.y = -42;
         StartCoroutine(spawnHill());
     }
 
@@ -24,7 +23,6 @@ public class HillINstanciate : MonoBehaviour
         Instantiate(hillObj, nextHillSpawn, hillObj.rotation);
         Instantiate(treeObj, nextTreeSpawn, treeObj.rotation);
         nextHillSpawn.z += 21;
-        nextHillSpawn.y += -21;
         StartCoroutine(spawnHill());
     }
 }
