@@ -1,22 +1,45 @@
 fileFormatVersion: 2
-guid: 5ab461051d64540d49728a8f0e11b129
+guid: 06b9533f60fc0436ab953a984138e07c
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: pPlane1
-    100002: //RootNode
-    400000: pPlane1
-    400002: //RootNode
-    2100000: pPlane1Mat
-    2300000: pPlane1
-    3300000: pPlane1
+    100000: //RootNode
+    400000: //RootNode
+    2100000: snow
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: pPlane1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: snow
+    second: {fileID: 2100000, guid: fb8ba8665382e45e08807963aec70206, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SnowGround_initialShadingGroup_BaseColor
+    second: {fileID: 2800000, guid: 8735f3afa8ee145b0ad3894ee6485800, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SnowGround_initialShadingGroup_Metallic
+    second: {fileID: 2800000, guid: 3255033cc979844349946a0e12be3c6f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SnowGround_initialShadingGroup_Normal
+    second: {fileID: 2800000, guid: 640a48e523c5a4737baf24777d370b22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SnowGround_initialShadingGroup_Roughness
+    second: {fileID: 2800000, guid: 71b0e2ff4d4fd434fa8ec6b48b837ca1, type: 3}
   materials:
     importMaterials: 1
-    materialName: 0
+    materialName: 1
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
