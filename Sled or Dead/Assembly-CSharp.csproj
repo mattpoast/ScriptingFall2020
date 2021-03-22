@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ADA72E2B-8565-F04B-4E92-55B9006FBFB3}</ProjectGuid>
+    <ProjectGuid>{15A50CDD-609A-E459-70F9-46B672B31DD7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,58 +57,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AiScript.cs" />
-    <Compile Include="Assets\Scripts\Ammo.cs" />
-    <Compile Include="Assets\Scripts\AttackScript.cs" />
-    <Compile Include="Assets\Scripts\ClickAnimation.cs" />
-    <Compile Include="Assets\Scripts\Collecting.cs" />
-    <Compile Include="Assets\Scripts\Collector.cs" />
-    <Compile Include="Assets\Scripts\CustomCursor.cs" />
-    <Compile Include="Assets\Scripts\DeathScreen.cs" />
-    <Compile Include="Assets\Scripts\Destroyer.cs" />
-    <Compile Include="Assets\Scripts\Dialogue.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Scripts\IntData.cs" />
-    <Compile Include="Assets\Scripts\ItemMenu.cs" />
-    <Compile Include="Assets\Scripts\Key.cs" />
-    <Compile Include="Assets\Scripts\MovingScript\BootsScript.cs" />
-    <Compile Include="Assets\Scripts\MovingScript\Bouncer.cs" />
-    <Compile Include="Assets\Scripts\MovingScript\KeyMover.cs" />
-    <Compile Include="Assets\Scripts\MovingScript\MoverScript.cs" />
-    <Compile Include="Assets\Scripts\MovingScript\Shooting.cs" />
-    <Compile Include="Assets\Scripts\MovingScript\WallImitter.cs" />
-    <Compile Include="Assets\Scripts\ObjectMouse.cs" />
-    <Compile Include="Assets\Scripts\OpenDoor.cs" />
-    <Compile Include="Assets\Scripts\Password.cs" />
-    <Compile Include="Assets\Scripts\PauseScript.cs" />
-    <Compile Include="Assets\Scripts\PlayAnimation.cs" />
-    <Compile Include="Assets\Scripts\PowerUp.cs" />
-    <Compile Include="Assets\Scripts\Randomizer.cs" />
-    <Compile Include="Assets\Scripts\Restart.cs" />
-    <Compile Include="Assets\Scripts\SceneLoaders\LoadScene.cs" />
-    <Compile Include="Assets\Scripts\SceneLoaders\LoadSceneZero.cs" />
-    <Compile Include="Assets\Scripts\SceneMover.cs" />
-    <Compile Include="Assets\Scripts\SledGame\CameraMover.cs" />
-    <Compile Include="Assets\Scripts\SledGame\ChairMover.cs" />
-    <Compile Include="Assets\Scripts\SledGame\Death.cs" />
-    <Compile Include="Assets\Scripts\SledGame\HillINstanciate.cs" />
-    <Compile Include="Assets\Scripts\SledGame\Obsticles.cs" />
-    <Compile Include="Assets\Scripts\SledGame\TreeINstanciate.cs" />
-    <Compile Include="Assets\Scripts\UnityEvents.cs" />
+    <Compile Include="Assets\Scripts\SledMover.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Fall2020Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Sled or Dead/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Fall2020Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Sled or Dead/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Fall2020Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Sled or Dead/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Fall2020Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Sled or Dead/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Fall2020Game/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Sled or Dead/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Users/mattpoast/Desktop/2018.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -315,13 +278,13 @@
       <HintPath>/Users/mattpoast/Desktop/2018.3.5f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Fall2020Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Sled or Dead/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Fall2020Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Sled or Dead/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Fall2020Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Sled or Dead/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Users/mattpoast/Desktop/2018.3.5f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

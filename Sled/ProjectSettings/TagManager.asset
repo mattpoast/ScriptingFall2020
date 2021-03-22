@@ -4,9 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - objectCursor
-  - collectable
-  - gameObject
+  - Crash
+  - crash
   layers:
   - Default
   - TransparentFX
