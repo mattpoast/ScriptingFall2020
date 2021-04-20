@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 public class SledMover : MonoBehaviour
 {
-    private float moveSpeed = 10f;
+    public float moveSpeed = 20f;
         private Vector3 moveDirection;
         public CharacterController controller;
         public Vector3 sledPower;
