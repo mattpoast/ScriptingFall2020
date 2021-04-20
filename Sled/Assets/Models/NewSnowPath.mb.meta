@@ -3,7 +3,42 @@ guid: 2137786cefbf74d018bed7d5830dde94
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass
+    second: {fileID: 2100000, guid: d30efc257cbb649da8bf78b1b817132a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ground
+    second: {fileID: 2100000, guid: 1ace83cffcb2b47699200cffd87f1355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IcePillarBlue
+    second: {fileID: 2100000, guid: a33324446421e402f8d15ee735a054ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IcePillarGreen
+    second: {fileID: 2100000, guid: 0bdfe299c4aac43eda8aafa81b60e833, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IcePillarWhite
+    second: {fileID: 2100000, guid: 948bf6fb5619b4487b945050b02dda8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mountain
+    second: {fileID: 2100000, guid: 4c0c1070ca9a44e10bcf55a9d23aef57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MountainSnow
+    second: {fileID: 2100000, guid: 87aecef3f55e54acca49f79722b653fa, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
