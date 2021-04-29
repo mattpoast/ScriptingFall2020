@@ -23,7 +23,7 @@ public class pauseScript : MonoBehaviour
          {
             Time.timeScale = 0;
    pauseScreen.SetActive(true);
-   pauseSong.Play(1);
+   pauseSong.PlayDelayed(0.25f);
          }
          else
          {
