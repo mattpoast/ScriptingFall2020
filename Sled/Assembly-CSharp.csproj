@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\Instanciater.cs" />
      <Compile Include="Assets\Scripts\MovingObstacel.cs" />
      <Compile Include="Assets\Scripts\SledMover.cs" />
+     <Compile Include="Assets\Scripts\pauseScript.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Sled/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
