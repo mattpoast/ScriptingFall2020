@@ -305,7 +305,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 2000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -345,6 +345,8 @@ MonoBehaviour:
   moveSpeed: 400
   controller: {fileID: 689855921}
   sledPower: {x: 0, y: 0, z: 400}
+  g: 125
+  jumpForce: 10
 --- !u!143 &689855921
 CharacterController:
   m_ObjectHideFlags: 0
