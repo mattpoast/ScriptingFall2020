@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 public class SledMover : MonoBehaviour
 {
-    public float moveSpeed = 20f;
+        public float moveSpeed = 400f;
         private Vector3 moveDirection;
         public CharacterController controller;
         public Vector3 sledPower;
-        public float g = 9.81f;
-        private bool isGrounded;
+        public float gravity = -9.81f;
+        private float yDirection;
         public float jumpForce = 100f;
         private void Start()
         {
@@ -14,18 +14,23 @@ public class SledMover : MonoBehaviour
         }
         public void Update()
         {
-            
             var moveSpeedInput = moveSpeed * Input.GetAxis("Horizontal");
     
-            moveDirection.Set(moveSpeedInput, -g, 0);
+            moveDirection.Set(moveSpeedInput, yDirection, 0);
+            yDirection += gravity * Time.deltaTime;
+            
              controller.Move(moveDirection * Time.deltaTime);
              controller.Move(sledPower * Time.deltaTime);
 
-             if (Input.GetKeyDown(KeyCode.Space))
+             if (controller.isGrounded && moveDirection.y < 0)
              {
-                 moveDirection.Set(moveSpeedInput, jumpForce, 0);
+                 yDirection = -1f;
              }
-             
+
+             if (Input.GetButtonDown("Jump"))
+             {
+                 yDirection = jumpForce;
+             }
         }
 
         

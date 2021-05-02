@@ -345,8 +345,8 @@ MonoBehaviour:
   moveSpeed: 400
   controller: {fileID: 689855921}
   sledPower: {x: 0, y: 0, z: 400}
-  g: 125
-  jumpForce: 10
+  gravity: -400
+  jumpForce: 125
 --- !u!143 &689855921
 CharacterController:
   m_ObjectHideFlags: 0
