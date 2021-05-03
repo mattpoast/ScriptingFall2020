@@ -1,25 +1,32 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
+using Random = UnityEngine.Random;
 
 public class Instanciater : MonoBehaviour
 {
     public Transform snowObj;
     private Vector3 snowSpawn;
     public Transform one, two, three, four, five;
-    
+    public float delayTimer;
     private int setSelect;
     void Start()
-    {
-        snowSpawn.z = 12;
+    { 
+        delayTimer = 13f;
+        snowSpawn.z = 9725;
         StartCoroutine(spawnHill());
+    }
+    private void Update()
+    {
+        delayTimer -= 0.1f * Time.deltaTime;
     }
     IEnumerator spawnHill()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(delayTimer);
         setSelect = Random.Range(1, 6);
         Instantiate(snowObj, snowSpawn, snowObj.rotation);
-        snowSpawn.z += 2.4f;
+        snowSpawn.z += 9725;
         if (setSelect ==1)
         {
             Instantiate(one, snowSpawn, one.rotation);

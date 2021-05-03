@@ -14,6 +14,7 @@ public class SledMover : MonoBehaviour
         }
         public void Update()
         {
+            sledPower.z +=8 * Time.deltaTime;
             var moveSpeedInput = moveSpeed * Input.GetAxis("Horizontal");
     
             moveDirection.Set(moveSpeedInput, yDirection, 0);

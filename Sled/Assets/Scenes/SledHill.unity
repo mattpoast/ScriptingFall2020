@@ -156,7 +156,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c7cc54474b5d34bd4bbddd6e05524a5b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 138
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c7cc54474b5d34bd4bbddd6e05524a5b,
         type: 3}
@@ -346,7 +346,7 @@ MonoBehaviour:
   controller: {fileID: 689855921}
   sledPower: {x: 0, y: 0, z: 400}
   gravity: -400
-  jumpForce: 125
+  jumpForce: 150
 --- !u!143 &689855921
 CharacterController:
   m_ObjectHideFlags: 0
@@ -406,7 +406,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4a6daefecc5b643428a6662c68be9da0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -138
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a6daefecc5b643428a6662c68be9da0,
         type: 3}
@@ -659,6 +659,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8696596799928747275, guid: c7cc54474b5d34bd4bbddd6e05524a5b, type: 3}
+--- !u!4 &1161947394 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c7cc54474b5d34bd4bbddd6e05524a5b,
+    type: 3}
+  m_PrefabInstance: {fileID: 35401517}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1219954182
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,7 +787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020c3ccf8b56a4bd8b5abadb9bcc2879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snowObj: {fileID: 0}
+  snowObj: {fileID: 1161947394}
   one: {fileID: 0}
   two: {fileID: 0}
   three: {fileID: 0}
