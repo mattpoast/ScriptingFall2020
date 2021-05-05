@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\CoinCollection.cs" />
      <Compile Include="Assets\Scripts\Death.cs" />
      <Compile Include="Assets\Scripts\Instanciater.cs" />
+     <Compile Include="Assets\Scripts\InvinciblePowerUp.cs" />
      <Compile Include="Assets\Scripts\MovingObstacel.cs" />
      <Compile Include="Assets\Scripts\SledMover.cs" />
      <Compile Include="Assets\Scripts\pauseScript.cs" />
