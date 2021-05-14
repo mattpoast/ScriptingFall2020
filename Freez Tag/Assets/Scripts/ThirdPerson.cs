@@ -12,7 +12,7 @@ public class ThirdPerson : MonoBehaviour
     {
         var moveSpeedInput = moveSpeed * Input.GetAxis("Horizontal");
         var moveSpeedInputZ = moveSpeed * Input.GetAxis("Vertical");
-        moveDirection.Set(moveSpeedInput, yDirection,moveSpeedInputZ);
+        moveDirection.Set(moveSpeedInput, yDirection, moveSpeedInputZ);
         yDirection += gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
 
