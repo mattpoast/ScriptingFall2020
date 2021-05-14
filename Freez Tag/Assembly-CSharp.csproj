@@ -86,6 +86,12 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Freez Tag/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Freez Tag/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Freez Tag/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Users/mattpoast/Desktop/2019.4.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
