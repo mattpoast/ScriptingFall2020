@@ -258,7 +258,6 @@ GameObject:
   - component: {fileID: 132899089}
   - component: {fileID: 132899088}
   - component: {fileID: 132899087}
-  - component: {fileID: 132899086}
   - component: {fileID: 132899085}
   - component: {fileID: 132899084}
   m_Layer: 0
@@ -281,11 +280,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 8.5
-  lookSpeed: 5
-  moveDirection: {x: 0, y: 0, z: 0}
   controller: {fileID: 132899085}
   gravity: -30
   jumpPower: 10
+  turnSmoothTime: 0.1
+  cam: {fileID: 963194228}
 --- !u!143 &132899085
 CharacterController:
   m_ObjectHideFlags: 0
@@ -303,20 +302,6 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!136 &132899086
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132899083}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &132899087
 MeshRenderer:
@@ -884,7 +869,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.18832724, y: -0.000000029525378, z: 0.000000005661742, w: 0.9821063}
+  m_LocalRotation: {x: 0.18832725, y: 0.000000029525376, z: -0.0000000056617426, w: 0.9821063}
   m_LocalPosition: {x: 0, y: 3.92, z: -6.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1065,7 +1050,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528915606}
-  m_LocalRotation: {x: 0.18832724, y: -0.000000025643294, z: 0.00000000491732, w: 0.9821063}
+  m_LocalRotation: {x: 0.18832725, y: 0.000000003882082, z: -7.4442197e-10, w: 0.9821063}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
