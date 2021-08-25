@@ -58,6 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\NewMover.cs" />
      <Compile Include="Assets\Scripts\ThirdPerson.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/mattpoast/Desktop/Repo/ScriptingFall2020/ScriptingFall2020/Freez Tag/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

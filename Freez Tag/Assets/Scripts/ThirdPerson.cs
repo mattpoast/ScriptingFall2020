@@ -5,7 +5,6 @@ public class ThirdPerson : MonoBehaviour
     public CharacterController controller;
     public float gravity = -9.81f;
     private float yDirection;
-    public float jumpPower = 15f;
     private float turnSmoothVelocity;
     public float turnSmoothTime = 0.1f;
     public Transform cam;
@@ -31,11 +30,6 @@ public class ThirdPerson : MonoBehaviour
         if (controller.isGrounded && direction.y <0)
         {
             yDirection = -1f;
-        }
-        
-        if (Input.GetButtonDown("Jump"))
-        {
-            yDirection = jumpPower;
         }
     }
 }
